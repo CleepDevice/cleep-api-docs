@@ -1,8 +1,6 @@
 cleep.libs.tests package
 ========================
 
-Submodules
-----------
 
 cleep.libs.tests.common module
 ------------------------------
@@ -36,10 +34,3 @@ cleep.libs.tests.session module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.libs.tests
-   :members:
-   :undoc-members:
-   :show-inheritance:

@@ -1,8 +1,6 @@
 cleep.resources package
 =======================
 
-Submodules
-----------
 
 cleep.resources.audiocaptureresource module
 -------------------------------------------
@@ -20,10 +18,3 @@ cleep.resources.audioplaybackresource module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.resources
-   :members:
-   :undoc-members:
-   :show-inheritance:

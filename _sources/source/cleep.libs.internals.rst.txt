@@ -1,8 +1,6 @@
 cleep.libs.internals package
 ============================
 
-Submodules
-----------
 
 cleep.libs.internals.cleepbackup module
 ---------------------------------------
@@ -188,10 +186,3 @@ cleep.libs.internals.tools module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.libs.internals
-   :members:
-   :undoc-members:
-   :show-inheritance:

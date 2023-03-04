@@ -1,9 +1,6 @@
 cleep.libs package
 ==================
 
-Subpackages
------------
-
 .. toctree::
    :maxdepth: 4
 
@@ -13,10 +10,3 @@ Subpackages
    cleep.libs.internals
    cleep.libs.tests
 
-Module contents
----------------
-
-.. automodule:: cleep.libs
-   :members:
-   :undoc-members:
-   :show-inheritance:

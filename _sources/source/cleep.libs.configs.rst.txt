@@ -1,8 +1,6 @@
 cleep.libs.configs package
 ==========================
 
-Submodules
-----------
 
 cleep.libs.configs.appssources module
 -------------------------------------
@@ -140,10 +138,3 @@ cleep.libs.configs.wpasupplicantconf module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.libs.configs
-   :members:
-   :undoc-members:
-   :show-inheritance:

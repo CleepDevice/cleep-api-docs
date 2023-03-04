@@ -1,18 +1,14 @@
 cleep package
 =============
 
-Subpackages
------------
-
 .. toctree::
    :maxdepth: 4
 
+   cleep.events
    cleep.libs
    cleep.profiles
    cleep.resources
 
-Submodules
-----------
 
 cleep.bus module
 ----------------
@@ -62,10 +58,3 @@ cleep.rpcserver module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep
-   :members:
-   :undoc-members:
-   :show-inheritance:

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>cleep.libs.internals package &mdash; Cleep core 0.0.30 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/cleep.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/_static/cleep.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/cleep.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
@@ -47,46 +48,109 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="modules.html">cleep</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="cleep.html">cleep package</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="cleep.html#subpackages">Subpackages</a><ul class="current">
-<li class="toctree-l4 current"><a class="reference internal" href="cleep.libs.html">cleep.libs package</a><ul class="current">
-<li class="toctree-l5 current"><a class="reference internal" href="cleep.libs.html#subpackages">Subpackages</a><ul class="current">
-<li class="toctree-l6"><a class="reference internal" href="cleep.libs.commands.html">cleep.libs.commands package</a></li>
-<li class="toctree-l6"><a class="reference internal" href="cleep.libs.configs.html">cleep.libs.configs package</a></li>
-<li class="toctree-l6"><a class="reference internal" href="cleep.libs.drivers.html">cleep.libs.drivers package</a></li>
-<li class="toctree-l6 current"><a class="current reference internal" href="#">cleep.libs.internals package</a></li>
-<li class="toctree-l6"><a class="reference internal" href="cleep.libs.tests.html">cleep.libs.tests package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.events.html">cleep.events package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.events.html#module-cleep.events.coreappsupdatedevent">cleep.events.coreappsupdatedevent module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.events.html#module-cleep.events.coredevicedeletedevent">cleep.events.coredevicedeletedevent module</a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.libs.html#module-cleep.libs">Module contents</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="cleep.libs.html">cleep.libs package</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.commands.html">cleep.libs.commands package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.alsa">cleep.libs.commands.alsa module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.blkid">cleep.libs.commands.blkid module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.ifconfig">cleep.libs.commands.ifconfig module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.ifupdown">cleep.libs.commands.ifupdown module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.ip">cleep.libs.commands.ip module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iw">cleep.libs.commands.iw module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwconfig">cleep.libs.commands.iwconfig module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwgetid">cleep.libs.commands.iwgetid module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.iwlist">cleep.libs.commands.iwlist module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.lsblk">cleep.libs.commands.lsblk module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.lsmod">cleep.libs.commands.lsmod module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.modprobe">cleep.libs.commands.modprobe module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.rfkill">cleep.libs.commands.rfkill module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.udevadm">cleep.libs.commands.udevadm module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.commands.html#module-cleep.libs.commands.wpacli">cleep.libs.commands.wpacli module</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html">cleep.profiles package</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#submodules">Submodules</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alarmprofile">cleep.profiles.alarmprofile module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alertprofile">cleep.profiles.alertprofile module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.identifiedmessageprofile">cleep.profiles.identifiedmessageprofile module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.messageprofile">cleep.profiles.messageprofile module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.timerangedmessageprofile">cleep.profiles.timerangedmessageprofile module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles">Module contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.configs.html">cleep.libs.configs package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.appssources">cleep.libs.configs.appssources module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.asoundrc">cleep.libs.configs.asoundrc module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepaudio">cleep.libs.configs.cleepaudio module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepconf">cleep.libs.configs.cleepconf module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cleepwificonf">cleep.libs.configs.cleepwificonf module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cmdline">cleep.libs.configs.cmdline module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.cmdlinetxt">cleep.libs.configs.cmdlinetxt module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.config">cleep.libs.configs.config module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.configtxt">cleep.libs.configs.configtxt module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.dhcpcdconf">cleep.libs.configs.dhcpcdconf module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcasoundconf">cleep.libs.configs.etcasoundconf module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcmodules">cleep.libs.configs.etcmodules module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.etcnetworkinterfaces">cleep.libs.configs.etcnetworkinterfaces module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.fstab">cleep.libs.configs.fstab module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.hostname">cleep.libs.configs.hostname module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.modulesjson">cleep.libs.configs.modulesjson module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.configs.html#module-cleep.libs.configs.wpasupplicantconf">cleep.libs.configs.wpasupplicantconf module</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="cleep.resources.html">cleep.resources package</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="cleep.resources.html#submodules">Submodules</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.resources.html#module-cleep.resources.audiocaptureresource">cleep.resources.audiocaptureresource module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.resources.html#module-cleep.resources.audioplaybackresource">cleep.resources.audioplaybackresource module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.resources.html#module-cleep.resources">Module contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.drivers.html">cleep.libs.drivers package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.drivers.html#module-cleep.libs.drivers.audiodriver">cleep.libs.drivers.audiodriver module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.drivers.html#module-cleep.libs.drivers.driver">cleep.libs.drivers.driver module</a></li>
+</ul>
+</li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">cleep.libs.internals package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.cleepbackup">cleep.libs.internals.cleepbackup module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.cleepfilesystem">cleep.libs.internals.cleepfilesystem module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.cleepgithub">cleep.libs.internals.cleepgithub module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.cleepresource">cleep.libs.internals.cleepresource module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.console">cleep.libs.internals.console module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.crashreport">cleep.libs.internals.crashreport module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.criticalresources">cleep.libs.internals.criticalresources module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.download">cleep.libs.internals.download module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.drivers">cleep.libs.internals.drivers module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.event">cleep.libs.internals.event module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.eventsbroker">cleep.libs.internals.eventsbroker module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.externalbus">cleep.libs.internals.externalbus module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.install">cleep.libs.internals.install module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.installcleep">cleep.libs.internals.installcleep module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.installdeb">cleep.libs.internals.installdeb module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.installmodule">cleep.libs.internals.installmodule module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.profileformatter">cleep.libs.internals.profileformatter module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.profileformattersbroker">cleep.libs.internals.profileformattersbroker module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.readwrite">cleep.libs.internals.readwrite module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.rendererprofile">cleep.libs.internals.rendererprofile module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.sun">cleep.libs.internals.sun module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.task">cleep.libs.internals.task module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#module-cleep.libs.internals.tools">cleep.libs.internals.tools module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.libs.tests.html">cleep.libs.tests package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.common">cleep.libs.tests.common module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.lib">cleep.libs.tests.lib module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.mockdatetime">cleep.libs.tests.mockdatetime module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.tests.html#module-cleep.libs.tests.session">cleep.libs.tests.session module</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="cleep.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.profiles.html">cleep.profiles package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alarmprofile">cleep.profiles.alarmprofile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.alertprofile">cleep.profiles.alertprofile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.identifiedmessageprofile">cleep.profiles.identifiedmessageprofile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.messageprofile">cleep.profiles.messageprofile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.profiles.html#module-cleep.profiles.timerangedmessageprofile">cleep.profiles.timerangedmessageprofile module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.resources.html">cleep.resources package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cleep.resources.html#module-cleep.resources.audiocaptureresource">cleep.resources.audiocaptureresource module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleep.resources.html#module-cleep.resources.audioplaybackresource">cleep.resources.audioplaybackresource module</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.bus">cleep.bus module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.common">cleep.common module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.core">cleep.core module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.exception">cleep.exception module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.inventory">cleep.inventory module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.rpcserver">cleep.rpcserver module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep">Module contents</a></li>
 </ul>
 </li>
 </ul>
@@ -120,16 +184,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="cleep-libs-internals-package">
+  <section id="cleep-libs-internals-package">
 <h1>cleep.libs.internals package<a class="headerlink" href="#cleep-libs-internals-package" title="Permalink to this headline"></a></h1>
-<div class="section" id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
-</div>
-<div class="section" id="module-cleep.libs.internals.cleepbackup">
+<section id="module-cleep.libs.internals.cleepbackup">
 <span id="cleep-libs-internals-cleepbackup-module"></span><h2>cleep.libs.internals.cleepbackup module<a class="headerlink" href="#module-cleep.libs.internals.cleepbackup" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepbackup.CleepBackup">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CleepBackup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CleepBackup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="simple">
 <dt>CleepBackup allows you:</dt><dd><ul class="simple">
@@ -141,12 +202,12 @@
 <p>It uses rsync to backup files locally</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepbackup.CleepBackup.BACKUP_PATH">
-<span class="sig-name descname"><span class="pre">BACKUP_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'/etc/cleep.bak/'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup.BACKUP_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">BACKUP_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/etc/cleep.bak/'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup.BACKUP_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepbackup.CleepBackup.CLEEP_PATH">
-<span class="sig-name descname"><span class="pre">CLEEP_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'/etc/cleep/'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup.CLEEP_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">CLEEP_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/etc/cleep/'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepbackup.CleepBackup.CLEEP_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -183,18 +244,18 @@
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.cleepfilesystem">
+</section>
+<section id="module-cleep.libs.internals.cleepfilesystem">
 <span id="cleep-libs-internals-cleepfilesystem-module"></span><h2>cleep.libs.internals.cleepfilesystem module<a class="headerlink" href="#module-cleep.libs.internals.cleepfilesystem" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepfilesystem.CleepFilesystem">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CleepFilesystem</span></span><a class="headerlink" href="#cleep.libs.internals.cleepfilesystem.CleepFilesystem" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CleepFilesystem</span></span><a class="headerlink" href="#cleep.libs.internals.cleepfilesystem.CleepFilesystem" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Filesystem helper with read/write filesystem support (uses readwrite lib)
 A debounce function waits to switch to readonly mode to reduce number of switches</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepfilesystem.CleepFilesystem.DEBOUNCE_DURATION">
-<span class="sig-name descname"><span class="pre">DEBOUNCE_DURATION</span></span><em class="property"> <span class="pre">=</span> <span class="pre">10.0</span></em><a class="headerlink" href="#cleep.libs.internals.cleepfilesystem.CleepFilesystem.DEBOUNCE_DURATION" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">DEBOUNCE_DURATION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10.0</span></em><a class="headerlink" href="#cleep.libs.internals.cleepfilesystem.CleepFilesystem.DEBOUNCE_DURATION" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -566,23 +627,23 @@ Default options: delete suppressed files and exclude hidden files</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.cleepgithub">
+</section>
+<section id="module-cleep.libs.internals.cleepgithub">
 <span id="cleep-libs-internals-cleepgithub-module"></span><h2>cleep.libs.internals.cleepgithub module<a class="headerlink" href="#module-cleep.libs.internals.cleepgithub" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepgithub.CleepGithub">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CleepGithub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">auth_string</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CleepGithub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">auth_string</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Github release helper
 This class get releases from specified project and return content as dict</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_RATE">
-<span class="sig-name descname"><span class="pre">GITHUB_RATE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'https://api.github.com/rate_limit'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_RATE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">GITHUB_RATE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'https://api.github.com/rate_limit'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_RATE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_URL">
-<span class="sig-name descname"><span class="pre">GITHUB_URL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'https://api.github.com/repos/%s/%s/releases'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_URL" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">GITHUB_URL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'https://api.github.com/repos/%s/%s/releases'</span></em><a class="headerlink" href="#cleep.libs.internals.cleepgithub.CleepGithub.GITHUB_URL" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -723,32 +784,32 @@ Api requests are limited on free usage of github. This method returns current ra
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.cleepresource">
+</section>
+<section id="module-cleep.libs.internals.cleepresource">
 <span id="cleep-libs-internals-cleepresource-module"></span><h2>cleep.libs.internals.cleepresource module<a class="headerlink" href="#module-cleep.libs.internals.cleepresource" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepresource.CleepResource">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CleepResource</span></span><a class="headerlink" href="#cleep.libs.internals.cleepresource.CleepResource" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CleepResource</span></span><a class="headerlink" href="#cleep.libs.internals.cleepresource.CleepResource" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Base resource class</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.cleepresource.CleepResource.RESOURCE_NAME">
-<span class="sig-name descname"><span class="pre">RESOURCE_NAME</span></span><em class="property"> <span class="pre">=</span> <span class="pre">''</span></em><a class="headerlink" href="#cleep.libs.internals.cleepresource.CleepResource.RESOURCE_NAME" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">RESOURCE_NAME</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></em><a class="headerlink" href="#cleep.libs.internals.cleepresource.CleepResource.RESOURCE_NAME" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.console">
+</section>
+<section id="module-cleep.libs.internals.console">
 <span id="cleep-libs-internals-console-module"></span><h2>cleep.libs.internals.console module<a class="headerlink" href="#module-cleep.libs.internals.console" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.console.AdvancedConsole">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">AdvancedConsole</span></span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">AdvancedConsole</span></span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <a class="reference internal" href="#cleep.libs.internals.console.Console" title="cleep.libs.internals.console.Console"><code class="xref py py-class docutils literal notranslate"><span class="pre">cleep.libs.internals.console.Console</span></code></a></p>
 <p>Create console with advanced feature like find function to match pattern on stdout</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="cleep.libs.internals.console.AdvancedConsole.find">
-<span class="sig-name descname"><span class="pre">find</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">command</span></em>, <em class="sig-param"><span class="pre">pattern</span></em>, <em class="sig-param"><span class="pre">options=RegexFlag.None</span></em>, <em class="sig-param"><span class="pre">timeout=2.0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole.find" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">find</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">command</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pattern</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options=RegexFlag.None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout=2.0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole.find" title="Permalink to this definition"></a></dt>
 <dd><p>Find all pattern matches in command stdout. Found order is preserved</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -777,7 +838,7 @@ Api requests are limited on free usage of github. This method returns current ra
 
 <dl class="py method">
 <dt class="sig sig-object py" id="cleep.libs.internals.console.AdvancedConsole.find_in_string">
-<span class="sig-name descname"><span class="pre">find_in_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">string</span></em>, <em class="sig-param"><span class="pre">pattern</span></em>, <em class="sig-param"><span class="pre">options=RegexFlag.None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole.find_in_string" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">find_in_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pattern</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options=RegexFlag.None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.AdvancedConsole.find_in_string" title="Permalink to this definition"></a></dt>
 <dd><p>Find all pattern matches in specified string. Found order is respected.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -807,7 +868,7 @@ Api requests are limited on free usage of github. This method returns current ra
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.console.Console">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Console</span></span><a class="headerlink" href="#cleep.libs.internals.console.Console" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Console</span></span><a class="headerlink" href="#cleep.libs.internals.console.Console" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Helper class to execute command lines.
 You can execute command right now using command method or after a certain amount of time using command_delayed</p>
@@ -889,7 +950,7 @@ result as single function parameter</p></li>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.console.EndlessConsole">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">EndlessConsole</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">command</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback_end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exec_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.EndlessConsole" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">EndlessConsole</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">command</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback_end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exec_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.console.EndlessConsole" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">threading.Thread</span></code></p>
 <p>Helper class to execute long command line (system update…)
 This kind of console doesn’t kill command line after timeout. It just let command running
@@ -937,17 +998,17 @@ until end of it or if user explicitely requests to stop (or kill) it.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.crashreport">
+</section>
+<section id="module-cleep.libs.internals.crashreport">
 <span id="cleep-libs-internals-crashreport-module"></span><h2>cleep.libs.internals.crashreport module<a class="headerlink" href="#module-cleep.libs.internals.crashreport" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.crashreport.CrashReport">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CrashReport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">token</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">libs_version</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">disabled_by_core</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.crashreport.CrashReport" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CrashReport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">token</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">libs_version</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">disabled_by_core</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.crashreport.CrashReport" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Crash report class</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.crashreport.CrashReport.DEFAULT_FILTERS">
-<span class="sig-name descname"><span class="pre">DEFAULT_FILTERS</span></span><em class="property"> <span class="pre">=</span> <span class="pre">['KeyboardInterrupt',</span> <span class="pre">'zmq.error.ZMQError',</span> <span class="pre">'AssertionError',</span> <span class="pre">'ForcedException',</span> <span class="pre">'NotReady']</span></em><a class="headerlink" href="#cleep.libs.internals.crashreport.CrashReport.DEFAULT_FILTERS" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">DEFAULT_FILTERS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['KeyboardInterrupt',</span> <span class="pre">'zmq.error.ZMQError',</span> <span class="pre">'AssertionError',</span> <span class="pre">'ForcedException',</span> <span class="pre">'NotReady']</span></em><a class="headerlink" href="#cleep.libs.internals.crashreport.CrashReport.DEFAULT_FILTERS" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1050,12 +1111,12 @@ until end of it or if user explicitely requests to stop (or kill) it.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.criticalresources">
+</section>
+<section id="module-cleep.libs.internals.criticalresources">
 <span id="cleep-libs-internals-criticalresources-module"></span><h2>cleep.libs.internals.criticalresources module<a class="headerlink" href="#module-cleep.libs.internals.criticalresources" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.criticalresources.CriticalResources">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CriticalResources</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CriticalResources</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Class to handle critical resources such as audio hardware resource or something else that mustn’t
 be called twice at the same time.</p>
@@ -1068,12 +1129,12 @@ the microphone which results of problem during program execution. This class try
 giving a possibilty to acquire the resource, release it and acquire it again if necessary.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.criticalresources.CriticalResources.PYTHON_CLEEP_IMPORT_PATH">
-<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_IMPORT_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep.resources.'</span></em><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources.PYTHON_CLEEP_IMPORT_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_IMPORT_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep.resources.'</span></em><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources.PYTHON_CLEEP_IMPORT_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.criticalresources.CriticalResources.RESOURCES_DIR">
-<span class="sig-name descname"><span class="pre">RESOURCES_DIR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'../../resources'</span></em><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources.RESOURCES_DIR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">RESOURCES_DIR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'../../resources'</span></em><a class="headerlink" href="#cleep.libs.internals.criticalresources.CriticalResources.RESOURCES_DIR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1185,72 +1246,72 @@ will release temporarly the resource and acquire it again automatically.</p></li
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.download">
+</section>
+<section id="module-cleep.libs.internals.download">
 <span id="cleep-libs-internals-download-module"></span><h2>cleep.libs.internals.download module<a class="headerlink" href="#module-cleep.libs.internals.download" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Download</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.download.Download" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Download</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.download.Download" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Download file helper</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.CACHED_FILE_PREFIX">
-<span class="sig-name descname"><span class="pre">CACHED_FILE_PREFIX</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep_cached'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.CACHED_FILE_PREFIX" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">CACHED_FILE_PREFIX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep_cached'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.CACHED_FILE_PREFIX" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.DOWNLOAD_FILE_PREFIX">
-<span class="sig-name descname"><span class="pre">DOWNLOAD_FILE_PREFIX</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep_download'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.DOWNLOAD_FILE_PREFIX" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">DOWNLOAD_FILE_PREFIX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep_download'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.DOWNLOAD_FILE_PREFIX" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_CACHED">
-<span class="sig-name descname"><span class="pre">STATUS_CACHED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">8</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_CACHED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_CACHED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_CACHED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_CANCELED">
-<span class="sig-name descname"><span class="pre">STATUS_CANCELED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">7</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_CANCELED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_CANCELED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_CANCELED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_DONE">
-<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DONE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DONE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_DOWNLOADING">
-<span class="sig-name descname"><span class="pre">STATUS_DOWNLOADING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DOWNLOADING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_DOWNLOADING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DOWNLOADING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_DOWNLOADING_NOSIZE">
-<span class="sig-name descname"><span class="pre">STATUS_DOWNLOADING_NOSIZE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DOWNLOADING_NOSIZE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_DOWNLOADING_NOSIZE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_DOWNLOADING_NOSIZE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_ERROR">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_ERROR_BADCHECKSUM">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_BADCHECKSUM</span></span><em class="property"> <span class="pre">=</span> <span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR_BADCHECKSUM" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_BADCHECKSUM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR_BADCHECKSUM" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_ERROR_INVALIDSIZE">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_INVALIDSIZE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR_INVALIDSIZE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_INVALIDSIZE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_ERROR_INVALIDSIZE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.download.Download.TMP_FILE_PREFIX">
-<span class="sig-name descname"><span class="pre">TMP_FILE_PREFIX</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep_tmp'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.TMP_FILE_PREFIX" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">TMP_FILE_PREFIX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep_tmp'</span></em><a class="headerlink" href="#cleep.libs.internals.download.Download.TMP_FILE_PREFIX" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1455,12 +1516,12 @@ Call cancel instance function to stop current download</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.drivers">
+</section>
+<section id="module-cleep.libs.internals.drivers">
 <span id="cleep-libs-internals-drivers-module"></span><h2>cleep.libs.internals.drivers module<a class="headerlink" href="#module-cleep.libs.internals.drivers" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.drivers.Drivers">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Drivers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.drivers.Drivers" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Drivers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.drivers.Drivers" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Drivers handler</p>
 <dl class="py method">
@@ -1550,37 +1611,37 @@ Call cancel instance function to stop current download</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.event">
+</section>
+<section id="module-cleep.libs.internals.event">
 <span id="cleep-libs-internals-event-module"></span><h2>cleep.libs.internals.event module<a class="headerlink" href="#module-cleep.libs.internals.event" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Event</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">params</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.event.Event" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Event</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">params</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.event.Event" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Base event class</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event.EVENT_CHARTABLE">
-<span class="sig-name descname"><span class="pre">EVENT_CHARTABLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_CHARTABLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">EVENT_CHARTABLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_CHARTABLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event.EVENT_JOURNALIZABLE">
-<span class="sig-name descname"><span class="pre">EVENT_JOURNALIZABLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_JOURNALIZABLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">EVENT_JOURNALIZABLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_JOURNALIZABLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event.EVENT_NAME">
-<span class="sig-name descname"><span class="pre">EVENT_NAME</span></span><em class="property"> <span class="pre">=</span> <span class="pre">''</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_NAME" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">EVENT_NAME</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_NAME" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event.EVENT_PARAMS">
-<span class="sig-name descname"><span class="pre">EVENT_PARAMS</span></span><em class="property"> <span class="pre">=</span> <span class="pre">[]</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_PARAMS" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">EVENT_PARAMS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_PARAMS" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.event.Event.EVENT_PROPAGATE">
-<span class="sig-name descname"><span class="pre">EVENT_PROPAGATE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_PROPAGATE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">EVENT_PROPAGATE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></em><a class="headerlink" href="#cleep.libs.internals.event.Event.EVENT_PROPAGATE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1665,34 +1726,34 @@ Call cancel instance function to stop current download</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.eventsbroker">
+</section>
+<section id="module-cleep.libs.internals.eventsbroker">
 <span id="cleep-libs-internals-eventsbroker-module"></span><h2>cleep.libs.internals.eventsbroker module<a class="headerlink" href="#module-cleep.libs.internals.eventsbroker" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.eventsbroker.EventsBroker">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">EventsBroker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">EventsBroker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Events broker
 The goal of this broker is to centralize events to reference all them all in the core.
 It is also used to check event content before posting them and make sure it is compatible with core.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.eventsbroker.EventsBroker.CORE_EVENTS_DIR">
-<span class="sig-name descname"><span class="pre">CORE_EVENTS_DIR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'../../events'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.CORE_EVENTS_DIR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">CORE_EVENTS_DIR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'../../events'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.CORE_EVENTS_DIR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.eventsbroker.EventsBroker.MODULES_DIR">
-<span class="sig-name descname"><span class="pre">MODULES_DIR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'../../modules'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.MODULES_DIR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">MODULES_DIR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'../../modules'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.MODULES_DIR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_APPS_IMPORT_PATH">
-<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_APPS_IMPORT_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep.modules.'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_APPS_IMPORT_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_APPS_IMPORT_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep.modules.'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_APPS_IMPORT_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_CORE_EVENTS_IMPORT_PATH">
-<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_CORE_EVENTS_IMPORT_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep.events.'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_CORE_EVENTS_IMPORT_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_CORE_EVENTS_IMPORT_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep.events.'</span></em><a class="headerlink" href="#cleep.libs.internals.eventsbroker.EventsBroker.PYTHON_CLEEP_CORE_EVENTS_IMPORT_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1826,12 +1887,12 @@ It also register event callers for event</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.externalbus">
+</section>
+<section id="module-cleep.libs.internals.externalbus">
 <span id="cleep-libs-internals-externalbus-module"></span><h2>cleep.libs.internals.externalbus module<a class="headerlink" href="#module-cleep.libs.internals.externalbus" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.externalbus.ExternalBus">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">ExternalBus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">on_message_received</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">on_peer_connected</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">on_peer_disconnected</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.externalbus.ExternalBus" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ExternalBus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">on_message_received</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">on_peer_connected</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">on_peer_disconnected</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.externalbus.ExternalBus" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>ExternalBus base class</p>
 <p>External bus is only based on event handling.
@@ -1847,7 +1908,7 @@ This also reduces bus complexity.</p>
 </dl>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.externalbus.ExternalBus.COMMAND_RESPONSE_EVENT">
-<span class="sig-name descname"><span class="pre">COMMAND_RESPONSE_EVENT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'external.command.response'</span></em><a class="headerlink" href="#cleep.libs.internals.externalbus.ExternalBus.COMMAND_RESPONSE_EVENT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">COMMAND_RESPONSE_EVENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'external.command.response'</span></em><a class="headerlink" href="#cleep.libs.internals.externalbus.ExternalBus.COMMAND_RESPONSE_EVENT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1901,12 +1962,12 @@ This also reduces bus complexity.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.install">
+</section>
+<section id="module-cleep.libs.internals.install">
 <span id="cleep-libs-internals-install-module"></span><h2>cleep.libs.internals.install module<a class="headerlink" href="#module-cleep.libs.internals.install" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.install.Install">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Install</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">blocking</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.install.Install" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Install</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">blocking</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.install.Install" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Install helper</p>
 <p>This class helps you to install different kind of things:</p>
@@ -1921,22 +1982,22 @@ This also reduces bus complexity.</p>
 </div></blockquote>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.install.Install.STATUS_DONE">
-<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_DONE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_DONE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.install.Install.STATUS_ERROR">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_ERROR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_ERROR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.install.Install.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.install.Install.STATUS_PROCESSING">
-<span class="sig-name descname"><span class="pre">STATUS_PROCESSING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_PROCESSING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_PROCESSING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.install.Install.STATUS_PROCESSING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2117,55 +2178,55 @@ So take care to enable/disable writings before calling it.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.installcleep">
+</section>
+<section id="module-cleep.libs.internals.installcleep">
 <span id="cleep-libs-internals-installcleep-module"></span><h2>cleep.libs.internals.installcleep module<a class="headerlink" href="#module-cleep.libs.internals.installcleep" title="Permalink to this headline"></a></h2>
 <dl class="py exception">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.ForcedException">
-<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">ForcedException</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installcleep.ForcedException" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ForcedException</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installcleep.ForcedException" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">InstallCleep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">InstallCleep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">gevent.threading.Thread</span></code></p>
 <p>Install cleep update
 This class download latest package from cleep repository, dry run deb install and finally
 install deb package.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DEB">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_DEB</span></span><em class="property"> <span class="pre">=</span> <span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DEB" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_DEB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DEB" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_CHECKSUM">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD_CHECKSUM</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_CHECKSUM" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD_CHECKSUM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_CHECKSUM" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_PACKAGE">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD_PACKAGE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_PACKAGE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD_PACKAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_DOWNLOAD_PACKAGE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_INTERNAL">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATED">
-<span class="sig-name descname"><span class="pre">STATUS_UPDATED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UPDATED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATING">
-<span class="sig-name descname"><span class="pre">STATUS_UPDATING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UPDATING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installcleep.InstallCleep.STATUS_UPDATING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2214,48 +2275,48 @@ The process is non blocking. Follow install process status using get_status.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.installdeb">
+</section>
+<section id="module-cleep.libs.internals.installdeb">
 <span id="cleep-libs-internals-installdeb-module"></span><h2>cleep.libs.internals.installdeb module<a class="headerlink" href="#module-cleep.libs.internals.installdeb" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">InstallDeb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">InstallDeb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Install .deb package using apt-get
 Due to quantity of messages, stderr is mixed within stdout to keep message order</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_DONE">
-<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_DONE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_DONE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_DONE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_ERROR">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_ERROR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_ERROR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_KILLED">
-<span class="sig-name descname"><span class="pre">STATUS_KILLED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_KILLED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_KILLED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_KILLED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_RUNNING">
-<span class="sig-name descname"><span class="pre">STATUS_RUNNING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_RUNNING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_RUNNING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_RUNNING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.STATUS_TIMEOUT">
-<span class="sig-name descname"><span class="pre">STATUS_TIMEOUT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_TIMEOUT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_TIMEOUT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.STATUS_TIMEOUT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installdeb.InstallDeb.WATCHDOG_TIMEOUT">
-<span class="sig-name descname"><span class="pre">WATCHDOG_TIMEOUT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3600</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.WATCHDOG_TIMEOUT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">WATCHDOG_TIMEOUT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3600</span></em><a class="headerlink" href="#cleep.libs.internals.installdeb.InstallDeb.WATCHDOG_TIMEOUT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2332,67 +2393,67 @@ Please note in non blocking mode you must allow by yourself filesystem writing</
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.installmodule">
+</section>
+<section id="module-cleep.libs.internals.installmodule">
 <span id="cleep-libs-internals-installmodule-module"></span><h2>cleep.libs.internals.installmodule module<a class="headerlink" href="#module-cleep.libs.internals.installmodule" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">InstallModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_process</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">InstallModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_process</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">cleep.libs.internals.installmodule.CommonProcess</span></code></p>
 <p>Install module in background task</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_CANCELED">
-<span class="sig-name descname"><span class="pre">STATUS_CANCELED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_CANCELED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_CANCELED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_CANCELED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_BACKUP">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_BACKUP</span></span><em class="property"> <span class="pre">=</span> <span class="pre">8</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_BACKUP" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_BACKUP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_BACKUP" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_COPY">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_COPY</span></span><em class="property"> <span class="pre">=</span> <span class="pre">9</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_COPY" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_COPY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_COPY" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_DOWNLOAD">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD</span></span><em class="property"> <span class="pre">=</span> <span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_DOWNLOAD" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_DOWNLOAD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_DOWNLOAD" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_EXTRACT">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_EXTRACT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_EXTRACT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_EXTRACT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_EXTRACT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_INTERNAL">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_POSTINST">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_POSTINST</span></span><em class="property"> <span class="pre">=</span> <span class="pre">10</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_POSTINST" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_POSTINST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_POSTINST" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_PREINST">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_PREINST</span></span><em class="property"> <span class="pre">=</span> <span class="pre">7</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_PREINST" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_PREINST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_ERROR_PREINST" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLED">
-<span class="sig-name descname"><span class="pre">STATUS_INSTALLED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_INSTALLED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLING">
-<span class="sig-name descname"><span class="pre">STATUS_INSTALLING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_INSTALLING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.InstallModule.STATUS_INSTALLING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2465,43 +2526,43 @@ Please note in non blocking mode you must allow by yourself filesystem writing</
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">UninstallModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_process</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force_uninstall</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">UninstallModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_process</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force_uninstall</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">cleep.libs.internals.installmodule.CommonProcess</span></code></p>
 <p>Uninstall module in background task
 This class executes preuninstall script, removes all installed files and executes postuninstall script</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_INTERNAL">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_INTERNAL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_INTERNAL" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_POSTUNINST">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_POSTUNINST</span></span><em class="property"> <span class="pre">=</span> <span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_POSTUNINST" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_POSTUNINST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_POSTUNINST" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_PREUNINST">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_PREUNINST</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_PREUNINST" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_PREUNINST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_PREUNINST" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_REMOVE">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR_REMOVE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_REMOVE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR_REMOVE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_ERROR_REMOVE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLED">
-<span class="sig-name descname"><span class="pre">STATUS_UNINSTALLED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UNINSTALLED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLING">
-<span class="sig-name descname"><span class="pre">STATUS_UNINSTALLING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UNINSTALLING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UninstallModule.STATUS_UNINSTALLING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2553,27 +2614,27 @@ This class executes preuninstall script, removes all installed files and execute
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UpdateModule">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">UpdateModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force_uninstall</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">UpdateModule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_module_infos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force_uninstall</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cleep_filesystem</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crash_report</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">threading.Thread</span></code></p>
 <p>Update CleepOS module</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UpdateModule.STATUS_ERROR">
-<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_ERROR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_ERROR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UpdateModule.STATUS_IDLE">
-<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_IDLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_IDLE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATED">
-<span class="sig-name descname"><span class="pre">STATUS_UPDATED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATED" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UPDATED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATED" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATING">
-<span class="sig-name descname"><span class="pre">STATUS_UPDATING</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATING" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UPDATING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.installmodule.UpdateModule.STATUS_UPDATING" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2621,12 +2682,12 @@ This class executes preuninstall script, removes all installed files and execute
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.profileformatter">
+</section>
+<section id="module-cleep.libs.internals.profileformatter">
 <span id="cleep-libs-internals-profileformatter-module"></span><h2>cleep.libs.internals.profileformatter module<a class="headerlink" href="#module-cleep.libs.internals.profileformatter" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.profileformatter.ProfileFormatter">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">ProfileFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">params</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">profile</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.profileformatter.ProfileFormatter" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ProfileFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">params</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">profile</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.profileformatter.ProfileFormatter" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Base ProfileFormatter class
 Used to format profile with specified event parameters</p>
@@ -2646,23 +2707,23 @@ Used to format profile with specified event parameters</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.profileformattersbroker">
+</section>
+<section id="module-cleep.libs.internals.profileformattersbroker">
 <span id="cleep-libs-internals-profileformattersbroker-module"></span><h2>cleep.libs.internals.profileformattersbroker module<a class="headerlink" href="#module-cleep.libs.internals.profileformattersbroker" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">ProfileFormattersBroker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ProfileFormattersBroker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debug_enabled</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>ProfileFormatters broker is in charge of centralizing all formatters
 It also ensures formatters use exiting events</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.MODULES_DIR">
-<span class="sig-name descname"><span class="pre">MODULES_DIR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'../../modules'</span></em><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.MODULES_DIR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">MODULES_DIR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'../../modules'</span></em><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.MODULES_DIR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.PYTHON_CLEEP_IMPORT_PATH">
-<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_IMPORT_PATH</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'cleep.modules.'</span></em><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.PYTHON_CLEEP_IMPORT_PATH" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PYTHON_CLEEP_IMPORT_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'cleep.modules.'</span></em><a class="headerlink" href="#cleep.libs.internals.profileformattersbroker.ProfileFormattersBroker.PYTHON_CLEEP_IMPORT_PATH" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2764,42 +2825,42 @@ It also ensures formatters use exiting events</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.readwrite">
+</section>
+<section id="module-cleep.libs.internals.readwrite">
 <span id="cleep-libs-internals-readwrite-module"></span><h2>cleep.libs.internals.readwrite module<a class="headerlink" href="#module-cleep.libs.internals.readwrite" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">ReadWrite</span></span><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ReadWrite</span></span><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Read/write library allows user to toggle read/write mode on cleep protected iso</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.CLEEP_DIR">
-<span class="sig-name descname"><span class="pre">CLEEP_DIR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'/tmp/cleep'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.CLEEP_DIR" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">CLEEP_DIR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/tmp/cleep'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.CLEEP_DIR" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.PARTITION_BOOT">
-<span class="sig-name descname"><span class="pre">PARTITION_BOOT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'/boot'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.PARTITION_BOOT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PARTITION_BOOT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/boot'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.PARTITION_BOOT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.PARTITION_ROOT">
-<span class="sig-name descname"><span class="pre">PARTITION_ROOT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'/'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.PARTITION_ROOT" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">PARTITION_ROOT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/'</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.PARTITION_ROOT" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.STATUS_READ">
-<span class="sig-name descname"><span class="pre">STATUS_READ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_READ" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_READ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_READ" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.STATUS_UNKNOWN">
-<span class="sig-name descname"><span class="pre">STATUS_UNKNOWN</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_UNKNOWN" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_UNKNOWN</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_UNKNOWN" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWrite.STATUS_WRITE">
-<span class="sig-name descname"><span class="pre">STATUS_WRITE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_WRITE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">STATUS_WRITE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWrite.STATUS_WRITE" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -2917,7 +2978,7 @@ It also ensures formatters use exiting events</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.readwrite.ReadWriteContext">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">ReadWriteContext</span></span><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWriteContext" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ReadWriteContext</span></span><a class="headerlink" href="#cleep.libs.internals.readwrite.ReadWriteContext" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Object to hold some data about current context</p>
 <dl class="py method">
@@ -2927,12 +2988,12 @@ It also ensures formatters use exiting events</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.rendererprofile">
+</section>
+<section id="module-cleep.libs.internals.rendererprofile">
 <span id="cleep-libs-internals-rendererprofile-module"></span><h2>cleep.libs.internals.rendererprofile module<a class="headerlink" href="#module-cleep.libs.internals.rendererprofile" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.rendererprofile.RendererProfile">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">RendererProfile</span></span><a class="headerlink" href="#cleep.libs.internals.rendererprofile.RendererProfile" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">RendererProfile</span></span><a class="headerlink" href="#cleep.libs.internals.rendererprofile.RendererProfile" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Base renderer profile class
 It implements to_dict and __str__ functions</p>
@@ -2952,12 +3013,12 @@ It implements to_dict and __str__ functions</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.sun">
+</section>
+<section id="module-cleep.libs.internals.sun">
 <span id="cleep-libs-internals-sun-module"></span><h2>cleep.libs.internals.sun module<a class="headerlink" href="#module-cleep.libs.internals.sun" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.sun.Sun">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Sun</span></span><a class="headerlink" href="#cleep.libs.internals.sun.Sun" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Sun</span></span><a class="headerlink" href="#cleep.libs.internals.sun.Sun" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Sunset/sunrise times computation according to geographic position</p>
 <dl class="simple">
@@ -3095,19 +3156,19 @@ Alias to get_local_sunset_time for current date</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.task">
+</section>
+<section id="module-cleep.libs.internals.task">
 <span id="cleep-libs-internals-task-module"></span><h2>cleep.libs.internals.task module<a class="headerlink" href="#module-cleep.libs.internals.task" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.task.CountTask">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">CountTask</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">count</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.task.CountTask" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">CountTask</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">count</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.task.CountTask" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <a class="reference internal" href="#cleep.libs.internals.task.Task" title="cleep.libs.internals.task.Task"><code class="xref py py-class docutils literal notranslate"><span class="pre">cleep.libs.internals.task.Task</span></code></a></p>
 <p>Run task X times</p>
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="cleep.libs.internals.task.Task">
-<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Task</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.task.Task" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Task</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cleep.libs.internals.task.Task" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Run a task asynchronously.</p>
 <p>If interval is specified task is executed periodically.
@@ -3148,8 +3209,8 @@ If task is a count task, this function will wait until end of all loops</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals.tools">
+</section>
+<section id="module-cleep.libs.internals.tools">
 <span id="cleep-libs-internals-tools-module"></span><h2>cleep.libs.internals.tools module<a class="headerlink" href="#module-cleep.libs.internals.tools" title="Permalink to this headline"></a></h2>
 <dl class="py function">
 <dt class="sig sig-object py" id="cleep.libs.internals.tools.cidr_to_netmask">
@@ -3440,11 +3501,8 @@ It generates wpa_passphrase for wifi network connection</p>
 </dl>
 </dd></dl>
 
-</div>
-<div class="section" id="module-cleep.libs.internals">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cleep.libs.internals" title="Permalink to this headline"></a></h2>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>

@@ -1,8 +1,6 @@
 cleep.libs.commands package
 ===========================
 
-Submodules
-----------
 
 cleep.libs.commands.alsa module
 -------------------------------
@@ -124,10 +122,3 @@ cleep.libs.commands.wpacli module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.libs.commands
-   :members:
-   :undoc-members:
-   :show-inheritance:

@@ -1,8 +1,6 @@
 cleep.profiles package
 ======================
 
-Submodules
-----------
 
 cleep.profiles.alarmprofile module
 ----------------------------------
@@ -44,10 +42,3 @@ cleep.profiles.timerangedmessageprofile module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: cleep.profiles
-   :members:
-   :undoc-members:
-   :show-inheritance:
