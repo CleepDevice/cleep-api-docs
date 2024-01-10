@@ -10,6 +10,14 @@ cleep.libs.internals.cleepbackup module
    :undoc-members:
    :show-inheritance:
 
+cleep.libs.internals.cleepdoc module
+------------------------------------
+
+.. automodule:: cleep.libs.internals.cleepdoc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 cleep.libs.internals.cleepfilesystem module
 -------------------------------------------
 

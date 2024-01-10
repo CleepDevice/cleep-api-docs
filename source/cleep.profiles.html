@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>cleep.profiles package &mdash; Cleep core 0.0.30 documentation</title>
+  <title>cleep.profiles package &mdash; Cleep core 0.1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/cleep.css" type="text/css" />
@@ -34,7 +34,7 @@
             <img src="../_static/cleep-logo-red.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                0.0.30
+                0.1.0
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -99,6 +99,7 @@
 </li>
 <li class="toctree-l4"><a class="reference internal" href="cleep.libs.internals.html">cleep.libs.internals package</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepbackup">cleep.libs.internals.cleepbackup module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-cleepdoc-module">cleep.libs.internals.cleepdoc module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepfilesystem">cleep.libs.internals.cleepfilesystem module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepgithub">cleep.libs.internals.cleepgithub module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.cleepresource">cleep.libs.internals.cleepresource module</a></li>
@@ -110,10 +111,10 @@
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.event">cleep.libs.internals.event module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.eventsbroker">cleep.libs.internals.eventsbroker module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.externalbus">cleep.libs.internals.externalbus module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.install">cleep.libs.internals.install module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.installcleep">cleep.libs.internals.installcleep module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-install-module">cleep.libs.internals.install module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-installcleep-module">cleep.libs.internals.installcleep module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.installdeb">cleep.libs.internals.installdeb module</a></li>
-<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.installmodule">cleep.libs.internals.installmodule module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#cleep-libs-internals-installmodule-module">cleep.libs.internals.installmodule module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.profileformatter">cleep.libs.internals.profileformatter module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.profileformattersbroker">cleep.libs.internals.profileformattersbroker module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="cleep.libs.internals.html#module-cleep.libs.internals.readwrite">cleep.libs.internals.readwrite module</a></li>
@@ -137,6 +138,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#module-cleep.profiles.alertprofile">cleep.profiles.alertprofile module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-cleep.profiles.identifiedmessageprofile">cleep.profiles.identifiedmessageprofile module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-cleep.profiles.messageprofile">cleep.profiles.messageprofile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-cleep.profiles.thermostatprofile">cleep.profiles.thermostatprofile module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-cleep.profiles.timerangedmessageprofile">cleep.profiles.timerangedmessageprofile module</a></li>
 </ul>
 </li>
@@ -147,9 +149,9 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.bus">cleep.bus module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.common">cleep.common module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.core">cleep.core module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-core-module">cleep.core module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.exception">cleep.exception module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.inventory">cleep.inventory module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cleep.html#cleep-inventory-module">cleep.inventory module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="cleep.html#module-cleep.rpcserver">cleep.rpcserver module</a></li>
 </ul>
 </li>
@@ -259,6 +261,46 @@
 </dd></dl>
 
 </section>
+<section id="module-cleep.profiles.thermostatprofile">
+<span id="cleep-profiles-thermostatprofile-module"></span><h2>cleep.profiles.thermostatprofile module<a class="headerlink" href="#module-cleep.profiles.thermostatprofile" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ThermostatProfile</span></span><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="cleep.libs.internals.html#cleep.libs.internals.rendererprofile.RendererProfile" title="cleep.libs.internals.rendererprofile.RendererProfile"><code class="xref py py-class docutils literal notranslate"><span class="pre">cleep.libs.internals.rendererprofile.RendererProfile</span></code></a></p>
+<p>Thermostat profile</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ANTIFROST">
+<span class="sig-name descname"><span class="pre">MODE_ANTIFROST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'antifrost'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ANTIFROST" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT1">
+<span class="sig-name descname"><span class="pre">MODE_COMFORT1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'comfort1'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT2">
+<span class="sig-name descname"><span class="pre">MODE_COMFORT2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'comfort2'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT2" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT3">
+<span class="sig-name descname"><span class="pre">MODE_COMFORT3</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'comfort3'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_COMFORT3" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ECO">
+<span class="sig-name descname"><span class="pre">MODE_ECO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'eco'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_ECO" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cleep.profiles.thermostatprofile.ThermostatProfile.MODE_STOP">
+<span class="sig-name descname"><span class="pre">MODE_STOP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'stop'</span></em><a class="headerlink" href="#cleep.profiles.thermostatprofile.ThermostatProfile.MODE_STOP" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
 <section id="module-cleep.profiles.timerangedmessageprofile">
 <span id="cleep-profiles-timerangedmessageprofile-module"></span><h2>cleep.profiles.timerangedmessageprofile module<a class="headerlink" href="#module-cleep.profiles.timerangedmessageprofile" title="Permalink to this headline"></a></h2>
 <dl class="py class">
@@ -280,7 +322,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2023 CleepDevice.</p>
+    <p>&#169; Copyright 2024 CleepDevice.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
