@@ -186,6 +186,14 @@ cleep.libs.internals.task module
    :undoc-members:
    :show-inheritance:
 
+cleep.libs.internals.taskfactory module
+---------------------------------------
+
+.. automodule:: cleep.libs.internals.taskfactory
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 cleep.libs.internals.tools module
 ---------------------------------
 
